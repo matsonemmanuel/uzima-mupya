@@ -10,11 +10,11 @@ import {
   Mail,
   MapPin,
   MessageCircle,
-  Phone,
+  
   Send,
   ShieldCheck,
   Sparkles,
-  UsersRound,
+  
 } from 'lucide-react'
 
 type ContactForm = {

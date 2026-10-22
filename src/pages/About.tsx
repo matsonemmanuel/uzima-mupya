@@ -3,7 +3,7 @@ import {
   ArrowDown,
   ArrowRight,
   Brain,
-  CheckCircle2,
+  
   Droplets,
   Heart,
   HeartHandshake,
@@ -15,7 +15,7 @@ import {
   HandHeart,
   BookOpen,
 } from 'lucide-react'
-  
+
 const values = [
   {
     number: '01',

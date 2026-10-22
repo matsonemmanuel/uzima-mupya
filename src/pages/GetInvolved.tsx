@@ -6,7 +6,7 @@ import {
   UsersRound,
   Handshake,
   Megaphone,
-  GraduationCap,
+  
   Gift,
   CheckCircle2,
   Globe2,

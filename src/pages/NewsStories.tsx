@@ -4,7 +4,7 @@ import {
   ArrowRight,
   ArrowUpRight,
   BookOpen,
-  CalendarDays,
+  
   ChevronRight,
   Heart,
   Search,

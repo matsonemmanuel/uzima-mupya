@@ -8,7 +8,7 @@ import {
   ShieldCheck,
   UsersRound,
   HandHeart,
-  Sparkles,
+
 } from 'lucide-react'
 
 const programmes = [
