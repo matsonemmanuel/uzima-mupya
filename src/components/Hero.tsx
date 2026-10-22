@@ -1,5 +1,6 @@
 
 import { ArrowRight, CirclePlay } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function Hero() {
   return (
@@ -44,8 +45,9 @@ export default function Hero() {
           </p>
 
           <div className="mt-7 flex flex-wrap items-center gap-3">
-            <a
-              href="#get-involved"
+            
+            <Link
+              to="/get-involved"
               className="inline-flex min-h-12 items-center justify-center
                 gap-2 rounded-full bg-[#ffda32] px-6 py-3
                 text-xs font-extrabold text-[#15365b] shadow-md
@@ -54,10 +56,10 @@ export default function Hero() {
             >
               Get Involved
               <ArrowRight size={16} />
-            </a>
+            </Link>
 
-            <a
-              href="#about"
+            <Link
+              to="/about"
               className="inline-flex min-h-12 items-center justify-center
                 gap-2 rounded-full border border-white/80 px-6 py-3
                 text-xs font-bold text-white transition-all duration-200
@@ -65,7 +67,8 @@ export default function Hero() {
             >
               <CirclePlay size={16} fill="currentColor" />
               Our Story
-            </a>
+            </Link>
+
           </div>
         </div>
       </div>
