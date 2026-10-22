@@ -95,7 +95,7 @@ export default function About() {
               shadow-md sm:w-[88%]"
           >
             <img
-              src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1200&q=85"
+              src={import.meta.env.BASE_URL + 'images/youth.jpg'}
               alt="Children learning and participating in a community setting"
               className="block h-full w-full object-cover object-center
                 transition-transform duration-700 hover:scale-[1.03]"

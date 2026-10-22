@@ -104,7 +104,7 @@ export default function About() {
       {/* HERO */}
       <section className="relative isolate flex min-h-[520px] items-center overflow-hidden bg-[#071F3B] sm:min-h-[590px] lg:min-h-[650px]">
         <img
-          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2200&q=85"
+          src={import.meta.env.BASE_URL + 'images/about.jpg'}
           alt="People coming together in a community"
           className="absolute inset-0 -z-20 h-full w-full object-cover"
         />

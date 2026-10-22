@@ -66,7 +66,7 @@ export default function Partnerships() {
           <div className="relative isolate flex min-h-[390px] overflow-hidden rounded-[28px] bg-[#082d50] sm:min-h-[440px] lg:min-h-[490px]">
 
             <img
-              src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1200&q=85"
+              src={import.meta.env.BASE_URL + 'images/pads.jpg'}
               alt="Children gathered together in a community setting"
               className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
               loading="lazy"

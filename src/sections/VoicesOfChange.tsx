@@ -8,8 +8,7 @@ const testimonials = [
       'Through Uzima Mupya, I hope to gain skills and confidence to build a brighter future and contribute to my community.',
     name: 'Participant Name',
     role: 'Program Participant',
-    image:
-      'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=300&q=85',
+    image: import.meta.env.BASE_URL + 'images/test.jpg',
   },
   {
     quote:

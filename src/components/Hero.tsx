@@ -10,15 +10,14 @@ export default function Hero() {
     >
       {/* Background photograph */}
       <img
-        src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=2000&q=85"
-        alt="Children learning together in a community setting"
-        className="absolute inset-0 -z-20 h-full w-full object-cover
-          object-center"
+        src={import.meta.env.BASE_URL + 'images/hero.jpg'}
+        alt="Community activities supported by Uzima Mupya Rejuvenated Foundation"
+        className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
       />
 
       {/* Blue overlay matching the reference */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-r
-        from-[#00396d]/95 via-[#07549a]/80 to-[#00345e]/20" />
+        from-[#00396d]/95 via-[#07549a]/20 to-[#00345e]/20" />
 
       <div className="mx-auto w-full max-w-[1440px] px-6 py-16
         sm:px-10 lg:px-16 lg:py-20">

@@ -117,7 +117,7 @@ export default function OurImpact() {
             {/* Image card with organic, slanted corners */}
             <div className="relative z-10 mx-auto aspect-[1.18/1] w-[88%] overflow-hidden rounded-[18%_8%_16%_10%/12%_10%_14%_12%] shadow-lg sm:aspect-[1.15/1]">
               <img
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=85"
+                src={import.meta.env.BASE_URL + 'images/impact.jpg'}
                 alt="Children in a community setting"
                 className="block h-full w-full object-cover object-center transition-transform duration-700 hover:scale-[1.04]"
                 loading="lazy"
