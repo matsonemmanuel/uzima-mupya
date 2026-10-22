@@ -109,7 +109,7 @@ export default function About() {
           className="absolute inset-0 -z-20 h-full w-full object-cover"
         />
 
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#061F38]/95 via-[#092A4B]/80 to-[#092A4B]/35" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#061F38]/95 via-[#092A4B]/20 to-[#092A4B]/35" />
 
         <div className="absolute right-[-100px] top-[-100px] -z-10 h-72 w-72 rounded-full border-[35px] border-[#F5C542]/20 sm:h-96 sm:w-96" />
 
