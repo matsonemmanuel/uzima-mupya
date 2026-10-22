@@ -113,7 +113,7 @@ export default function Navbar() {
             aria-label="Uzima Mupya Foundation home"
           >
             <img
-              src="/uzima-logo.jpg"
+              src={`${import.meta.env.BASE_URL}uzima-logo.jpg`}
               alt="Uzima Mupya Rejuvenated Foundation"
               className="h-[54px] w-[90px] object-contain
               sm:h-[60px] sm:w-[100px]"

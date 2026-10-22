@@ -88,7 +88,7 @@ export default function Footer() {
               className="inline-flex cursor-pointer items-center rounded-md focus:outline-none focus:ring-2 focus:ring-[#f3c928]"
             >
               <img
-                src="/uzima-logo.jpg"
+                src={`${import.meta.env.BASE_URL}uzima-logo.jpg`}
                 alt="Uzima Mupya Rejuvenated Foundation"
                 className="h-14 w-auto rounded-md object-contain"
               />
@@ -260,7 +260,7 @@ export default function Footer() {
 
             {/* Powered by Mat Labs */}
             <a
-              href="https://matlabs.com"
+              href="https://matlbs.com"
               target="_blank"
               rel="noreferrer"
               aria-label="Powered by Mat Labs"
@@ -271,7 +271,7 @@ export default function Footer() {
               </span>
 
               <img
-                src="/mat2.png"
+                src={`${import.meta.env.BASE_URL}mat2.png`}
                 alt="Mat Labs"
                 className="max-h-8 w-auto max-w-[100px] object-contain"
               />
