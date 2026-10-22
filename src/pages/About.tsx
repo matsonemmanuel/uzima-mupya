@@ -104,10 +104,10 @@ export default function About() {
       {/* HERO */}
       <section className="relative isolate flex min-h-[520px] items-center overflow-hidden bg-[#071F3B] sm:min-h-[590px] lg:min-h-[650px]">
         <img
-          src={import.meta.env.BASE_URL + 'images/about.jpg'}
-          alt="People coming together in a community"
-          className="absolute inset-0 -z-20 h-full w-full object-cover"
-        />
+  src={import.meta.env.BASE_URL + 'images/about.jpg'}
+  alt="Community members participating in an activity"
+  className="absolute inset-0 -z-20 h-full w-full object-cover object-top"
+/>
 
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#061F38]/95 via-[#092A4B]/20 to-[#092A4B]/35" />
 
