@@ -131,7 +131,7 @@ export default function About() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-base leading-8 text-white/85 sm:text-lg">
-              Uzima Mupya Rejuvenated Foundation is a refugee-led,
+              Uzima Mupya Rejuvenated Foundation is a women refugee-led,
               non-profit organization committed to dignity, health,
               opportunity, and the well-being of inclusive communities.
             </p>
@@ -177,7 +177,7 @@ export default function About() {
 
             <p className="mt-7 text-base leading-8 text-slate-600">
               Uzima Mupya Rejuvenated Foundation (UMRF) is a
-              non-governmental, non-profit, refugee-led organization
+              non-governmental, non-profit, women refugee-led organization
               operating in Kyangwali Refugee Settlement and beyond.
               Our work is guided by the belief that every individual
               deserves to live with dignity, access opportunities, and
@@ -188,7 +188,7 @@ export default function About() {
               We focus on mental health and psychosocial well-being,
               water, sanitation and hygiene, menstrual health, inclusive
               and resilient communities, and support for newly arrived
-              refugees. Through these priorities, we seek to contribute
+              refugee girls and youths. Through these priorities, we seek to contribute
               to communities where people are supported, included, and
               able to move forward.
             </p>

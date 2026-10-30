@@ -95,7 +95,7 @@ export default function Footer() {
             </Link>
 
             <p className="mt-5 max-w-sm text-sm leading-7 text-blue-100/80">
-              A refugee-led, non-profit organization working toward
+              A women refugee-led, non-profit organization working toward
               communities where all individuals live with dignity,
               health, and opportunity.
             </p>

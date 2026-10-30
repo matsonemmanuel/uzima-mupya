@@ -23,7 +23,7 @@ export default function About() {
           </h2>
 
           <p className="mt-5 text-sm leading-[1.85] text-slate-600 sm:text-[15px]">
-            Uzima Mupya Rejuvenated Foundation is a non-profit,
+            Uzima Mupya Rejuvenated Foundation is a non-profit,women 
             refugee-led organization operating in Kyangwali Refugee
             Settlement and beyond. We are committed to empowering
             individuals and supporting inclusive communities where
