@@ -8,26 +8,27 @@ import {
   Quote,
 } from 'lucide-react'
 
+
 const teamMembers = [
   {
-    name: 'Team Member Name',
-    role: 'Board Chairperson',
-    category: 'BOARD LEADERSHIP',
-    image: '',
+    name: 'Miskat Blessing',
+    role: 'Founder & CEO',
+    category: 'EXECUTIVE LEADERSHIP',
+    image: import.meta.env.BASE_URL + 'images/team/ceo.jpg',
     bio: 'Add an approved biography highlighting this leader’s experience, responsibilities and commitment to UMRF’s mission.',
   },
   {
     name: 'Team Member Name',
-    role: 'Executive Director',
+    role: 'Admin & Operations Lead',
     category: 'EXECUTIVE LEADERSHIP',
-    image: '',
+    image: import.meta.env.BASE_URL + 'images/team/admin.jpg',
     bio: 'Introduce the person responsible for organizational leadership, strategic direction and implementation.',
   },
   {
     name: 'Team Member Name',
-    role: 'Programmes Lead',
-    category: 'PROGRAMMES',
-    image: '',
+    role: 'General Secretary',
+    category: 'BOARD LEADERSHIP',
+    image: import.meta.env.BASE_URL + 'images/team/sec.jpg',
     bio: 'Describe this team member’s role in coordinating programmes and supporting community priorities.',
   },
   {
@@ -38,6 +39,7 @@ const teamMembers = [
     bio: 'Highlight this person’s responsibilities in community participation, communication and engagement.',
   },
 ]
+
 
 const governance = [
   {
