@@ -14,7 +14,7 @@ const teamMembers = [
     name: 'Miskat Blessing',
     role: 'Founder & CEO',
     category: 'EXECUTIVE LEADERSHIP',
-    image: import.meta.env.BASE_URL + 'images/team/ceo.jpg',
+    image: import.meta.env.BASE_URL + 'images/team/uzimaceo.jpg',
     bio: 'Add an approved biography highlighting this leader’s experience, responsibilities and commitment to UMRF’s mission.',
   },
   {
