@@ -343,7 +343,7 @@ export default function About() {
 
               <div className="relative h-64 overflow-hidden sm:h-80">
                 <img
-                  src={import.meta.env.BASE_URL + 'images/youth.jpg'}
+                  src={import.meta.env.BASE_URL + 'images/impact.jpg'}
                   alt="Young people participating in a community activity"
                   className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
                   loading="lazy"
